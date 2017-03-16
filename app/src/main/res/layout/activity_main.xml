@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/tan_background"
+android:orientation="vertical"
+tools:context="com.ferasbinhussainngmail.musicapp.MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:textSize="26sp"
+    android:id="@+id/enrique"
+    style="@style/CategoryStyle"
+    android:background="@color/category_enrique"
+    android:text="@string/category_enrique"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:textSize="26sp"
+    android:id="@+id/sia"
+    style="@style/CategoryStyle"
+    android:background="@color/category_sia"
+    android:text="@string/category_sia"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/talal"
+    android:textSize="26sp"
+    style="@style/CategoryStyle"
+    android:background="@color/category_talal"
+    android:text="@string/category_talal"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/adele"
+    android:textSize="26sp"
+    style="@style/CategoryStyle"
+    android:background="@color/category_adele"
+    android:text="@string/category_adele"/>
+
+</LinearLayout>

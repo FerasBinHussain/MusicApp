@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_enrique"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ferasbinhussainngmail.musicapp.EnriqueActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="7"
+    android:src="@drawable/enrique"
+    />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+        android:layout_weight="3"
+    android:textStyle="bold|italic"
+        android:padding="4dp"
+    android:text="Enrique Miguel Iglesias Preysler, better known as Enrique Iglesias, is a Spanish pop music singer-songwriter. Enrique Iglesias born in May 8, 1975. Enrique Iglesias started his musical career on Mexican label Fonovisa. This helped turn him into one of the most popular artists in Latin America and in the Hispanic or Latino market in the United States, and the biggest seller of Spanish language albums for a number of years."
+    android:background="#d3d3d3"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Play musics"
+        android:id="@+id/mediaE"
+        />
+
+
+</LinearLayout>
